@@ -1,11 +1,9 @@
 import "./App.css";
-import Feeback from "./components/feedback";
-import ContactsApp from "./components/contacts";
+import ContactsApp from "./components/contacts/contacts";
 
 function App() {
   return (
     <>
-      <Feeback />
       <ContactsApp />
     </>
   );
